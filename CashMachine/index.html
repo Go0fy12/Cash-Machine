@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Caixa 24h</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="fundo">
+        <h1>Cash Machine</h1>
+        <form class="caixa">
+            <p class="sald"> <u>Saldo disponível:</u> &#x221e</p>
+            <p class="txt">Valor do saque:</p>
+            <input class="txt" id="saque" name="ValorSaque" value=0><br>
+            <br>
+            <input class="btn" onclick="calcNotas()" type="button" value="Sacar">
+            <br><br>
+            <div class="notaquad">
+            <p class="nota">Notas disponíveis</p>
+            <p class="nota">R$100, R$50, R$20, R$10</p>
+            </div>    
+        </form>
+        <script src = "code.js"></script>
+    </body>

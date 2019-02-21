@@ -1,0 +1,61 @@
+.caixa{
+    margin: auto;
+    border: 0.5ch #000000 solid;
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+    background-color: #b6b6b6;
+    border-radius: 1.5ch;
+}
+h1{
+    font-size: 5vh;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 0.5ch;
+    font-family: sans-serif;
+    font-size: 2vh;
+    color: #fff;
+    background-color: #222;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 20px;
+    max-width: 40vw;
+    transition-property: padding, background-color;
+    transition-duration: 0.2s;
+}
+.btn:hover {
+    background-color: #5e5e5e;
+  }
+
+.sald{
+    font-family: sans-serif;
+    font-size: 4vh;
+    margin-bottom: 30px;
+}
+
+.txt{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2.5vh;
+    padding: 0.3ch;
+}
+
+.fundo{
+    background-color: #818181;
+}
+
+.nota{
+    font-family: sans-serif;
+}
+
+.notaquad{
+    border: 0.3ch #000000 solid;
+    margin: auto;
+    width: 50%;
+    background-color: #ff9c77;
+    border-radius: 1ch;
+}
